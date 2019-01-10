@@ -9,7 +9,7 @@ describe 'fizz_buzz' do
     expect(fizz_buzz(5)).to eq 'Buzz'
     end
 
-    it 'returns fizz if number is divisble by 3'  do
+    it 'returns Fizz if number is divisble by 3'  do
     expect(fizz_buzz(3)).to eq 'Fizz'
     end
 end
